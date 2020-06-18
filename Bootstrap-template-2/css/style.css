@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato',sans-serif; 
+}
+
+
+
+/* Header Section */
+#header {
+    background-color: #F8F9FA;
+}
+/*End  Header Section */
+
+/* Slider Section */
+#slider {
+    background: linear-gradient(0deg,rgba(0,0,0,.25),rgba(0,0,0,.25)),url('../img/bg-masthead.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+input {
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    width: 60%;
+
+}
+.slider-title {
+    font-size: 45px;
+
+}
+.slider-content {
+    padding: 14% 0;
+}
+/*End Slider Section */
+
+
+/* Services Main */
+#services {
+    background-color: #F8F9FA;
+}
+.card {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.card-text {
+    font-size:20px;
+}
+/*End Services Main */
+
+/* Main Section */
+.showcase-text {
+    padding: 112px 112px !important;
+}
+.main-text {
+    font-size: 19px;
+}
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+/* End Main */
+
+/* Team Section */
+#team{
+    background-color: #F8F9FA;
+}
+.team-img {
+    width: 60%;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px 0 #adb5bd;
+
+}
+#team .card-text {
+    font-size: 16px;
+}
+/* End Team */
+
+/* Sign Section */
+#sign {
+    background: linear-gradient(0deg,rgba(0,0,0,.25),rgba(0,0,0,.25)),url("../img/bg-masthead.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+/* End Sign */
+
+
+/* Footer Section */
+#footer{
+    background-color: #F8F9FA;
+}

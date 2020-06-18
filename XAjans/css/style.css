@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: customFont;
+    src: url("../fonts/VINERITC.TTF");
+}
+@font-face{
+    font-family: mainFont;
+    src: url("../fonts/BookAntiqua.ttf");
+}
+body {
+    font-family: mainFont, sans-serif;
+}
+.section {
+    padding: 100px 0;
+
+}
+.custom-size {
+    font-size: 30px;
+}
+
+.custom-color {
+    color: #3299dc;
+}
+/* Header Section */
+
+#header nav {
+    background-color: #fff !important;
+    border-bottom: 2px solid #3299dc;
+    padding: 10px 0;
+
+
+}
+.navbar-brand {
+    font-family: customFont,sans-serif;
+    font-size: 36px;
+}
+#header a {
+    color: #000;
+}
+.nav-item .nav-link {
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: black;
+    transition: all .3s ease;
+}
+.nav-item .nav-link:hover,
+.nav-item .nav-link:active,
+.nav-item.active .nav-link {
+    color: #3299dc !important;
+}
+/*End Header Section */
+
+/* Slider Section */
+#slider {
+    position: relative;
+    background: url("../img/xajans.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+}
+.custom-main-container {
+    padding-top: 10%;
+    color: #fff;
+    font-size: 20px;
+}
+.slider-sub-par {
+    color: #3299dc;
+}
+.slider-title {
+    font-size: 80px;
+}
+.card-title {
+    font-size: 24px;
+    padding: 5px 0;
+}
+/*End Slider Section */
+
+/* CTA section */
+#cta {
+    font-size: 29.3px;
+}
+/*End CTA section */
+
+/* About Section */
+#about {
+    background-color: #f3f1f1;
+}
+
+#about p {
+    font-size: 20px;
+}
+/*   End About Section */
+
+/*    Services Section */
+#services .card {
+    background-color: #f3f1f1;
+    transition: all .3s ease;
+}
+#services .card .card-title {
+    color: #3299dc;
+    font-size: 24px;
+}
+#services .card .card-text {
+    font-size: 20px;
+}
+#services .card:hover {
+    box-shadow: 5px 6px 5px 6px  #464646;
+    background-color: #ff9c5b;
+}
+/*   End Services Section */
+
+/* Prices section */
+#prices {
+    background-color: #f3f1f1;
+}
+#prices .card-body .card-title {
+    font-size: 24px;
+    color: #3299dc;
+}
+#prices .card-body .card-subtitle{
+    font-size: 48px;
+}
+/*End Prices section */
+
+/* Team Section */
+#team {
+    background: url("../img/team.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.team-overlay {
+    position: absolute;
+    background-color: rgba(255, 255, 255, .5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#team .col-lg-3 img {
+    border: 7px solid rgba(50,153,220,.5);
+}
+.team-title {
+    font-size: 24px;
+}
+.team-text {
+    font-size: 16px;
+}
+/* End Team Section */
+
+/* Contact Section   */
+/* End Contact */
+
+
+/* Footer   Section */
+#footer {
+    background-color: #3299dc;
+}
+.copy-r {
+    height: 40px;
+    line-height: 40px;
+    background-color: #2a0092;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width:768px){
+    #header nav{
+        padding: 5px 0 !important;
+    }
+    .navbar-brand {
+        font-size:18px !important;
+    }
+    .nav-item .nav-link{
+        font-size: 15px;
+    }
+    .navbar-brand img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .navbar-toggler {
+        padding: 1px;
+    }
+}
+@media screen and (max-width:992px){
+    .ready-software {
+        display: none;
+    }
+}
+@media screen and (max-width:1200px){
+    .navbar-brand {
+        font-size:25px;
+    }
+    .nav-item .nav-link{
+        font-size: 15px;
+    }
+    .navbar-brand img {
+        width: 50px;
+        height: 50px;
+    }
+}

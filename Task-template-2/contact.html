@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="./css/contact.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/91039b58cb.js" crossorigin="anonymous"></script>
+    <!-- Jquery  -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+</head>
+
+<body>
+    <!-- Main Section -->
+    <section id="main-sec" class="clearfix">
+        <!-- Left Section  -->
+        <section id="sidebar">
+            <div class="container-side">
+                <div class="side-logo">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div class="menu-bars">
+                    <i class="fas fa-bars fa-2x"></i>
+                </div>
+                <p class="side-par">
+                    Graduating from the halls of the
+                    University Of Western Sydney in late 2011.
+                </p>
+                <div class="navbar">
+                    <ul class="nav-links clearfix">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Features
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Lifestyle
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Travel
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Music
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="side-p">
+                    <p>
+                        2020 © Blogezy.
+                    </p>
+                </div>
+            </div>
+            <div class="mobile-nav">
+                <ul class="nav-links clearfix">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Features
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Lifestyle
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Travel
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Music
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--End Left Section  -->
+        <!-- Right section -->
+        <section id="right">
+            <div class="container">
+                <div class="content clearfix">
+                    <h2 class="right-title">
+                        GET IN TOUCH
+                    </h2>
+                    <p class="right-par">
+                        Duis mollis eget augue et lobortis.
+                        Nam nunc justo, aliquet sed condimentum vel,
+                        faucibus in dolor. Proin eleifend hendrerit rhoncus.
+                    </p>
+                    <div class="form">
+                        <input type="text" class="name" placeholder="Name*">
+                        <input type="email" class="email" placeholder="Email*">
+                        <input type="text" class="subject" placeholder="Subject">
+                        <textarea class="message" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button class="btn">SEND</button>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--End Main Section -->
+
+
+
+    <script>
+        $(function () {
+            $('.menu-bars').click(function () {
+                $('.mobile-nav').toggle(400);
+            })
+        })
+    </script>
+
+</body>
+
+</html>
